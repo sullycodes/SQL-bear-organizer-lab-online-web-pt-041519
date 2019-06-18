@@ -1,1 +1,2 @@
 CREATE TABLE bears (name TEXT);
+CREATE TABLE bears (age INTEGER);
