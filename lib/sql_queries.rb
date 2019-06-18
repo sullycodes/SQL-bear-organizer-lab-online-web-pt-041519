@@ -22,7 +22,7 @@ def selects_most_prominent_color_and_returns_with_count
   # "SELECT COUNT(color) FROM bears WHERE MAX(color);"
   # "SELECT COUNT(color) FROM bears DESC LIMIT 1;"
   # "SELECT MAX(color) FROM bears;"
-  "SELECT name, color FROM bears;"
+  "SELECT name, color FROM bears WHERE ;"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
