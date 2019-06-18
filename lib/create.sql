@@ -1,2 +1,2 @@
 CREATE TABLE bears (name TEXT);
-CREATE TABLE bears (age INTEGER);
+ALTER TABLE bears ADD COLUMN (age INTEGER);
